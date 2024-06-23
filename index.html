@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <form method="post">
+    <h1>Contact Us</h1>
+    <div class="username">
+      <div>
+        <label for="Firstname">First Name <span class="point">*</span></label>
+        <input type="text" id="Firstname">
+      </div>
+      <div>
+        <label for="lastname">Last Name <span class="point">*</span></label>
+        <input type="text" id="lastname">
+      </div>
+    </div>
+    <label for="email">Email Address <span class="point">*</span> </label>
+    <input type="email" id="email">
+    <div class="query">
+      <span>
+        <input type="checkbox"  id="checkbox1" name="genereal_enquir"  value="genereal enquiry">
+        <label for="genereal_enquir">genereal enquir</label>
+      </span>
+      <span>
+        <input type="checkbox"  id="checkbox1" name="support_request"  value="support request">
+        <label for="support_request">genereal enquir</label>
+      </span>
+    </div>
+    <label for="message">Message <span class="point">*</span></label>
+    <input type="text"  id="message">
+    <div class="radiobox">
+      <input type="radio" id="radio">
+      <label for="radio">I hereby consent to being Contacted by the team <span class="point">*</span></label>
+    </div>
+    <button>Submit</button>
+  </form>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.front endmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Mohamed</a>.
+  </div>
+</body>
+
+</html>
